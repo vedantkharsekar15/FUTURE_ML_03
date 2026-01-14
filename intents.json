@@ -1,0 +1,324 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Greetings",
+        "What's up",
+        "Howdy",
+        "Namaste",
+        "Namaskar",
+        "Bhai"
+      ],
+      "responses": [
+        "Hello! Welcome to SmartBank Support. How can I assist you today?",
+        "Hi there! I'm here to help with your banking needs. What can I do for you?",
+        "Greetings! How may I help you with your account today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Talk to you later",
+        "Catch you later",
+        "I'm done",
+        "That's all",
+        "Thanks bye"
+      ],
+      "responses": [
+        "Goodbye! Thank you for contacting SmartBank Support. Have a great day!",
+        "See you later! Feel free to reach out anytime you need help.",
+        "Thank you for chatting with us. Take care!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thanks a lot",
+        "I appreciate it",
+        "Thanks for the help",
+        "Thank you so much"
+      ],
+      "responses": [
+        "You're welcome! Happy to help!",
+        "Glad I could assist you. Anything else I can help with?",
+        "My pleasure! Let me know if you need anything else."
+      ]
+    },
+    {
+      "tag": "check_balance",
+      "patterns": [
+        "What is my account balance",
+        "Check my balance",
+        "How much money do I have",
+        "Show my balance",
+        "Account balance",
+        "Current balance",
+        "Check balance",
+        "How much is in my account"
+      ],
+      "responses": [
+        "To check your account balance, please log in to your SmartBank mobile app or visit our website. You can also call our 24/7 helpline at 1-800-SMART-BANK.",
+        "You can view your current balance instantly through our mobile app under 'Accounts' > 'View Balance'. Alternatively, visit any ATM or call customer service."
+      ]
+    },
+    {
+      "tag": "reset_password",
+      "patterns": [
+        "I forgot my password",
+        "Reset my password",
+        "Change password",
+        "Password reset",
+        "Can't login",
+        "Forgot password",
+        "How to reset password",
+        "Lost my password"
+      ],
+      "responses": [
+        "To reset your password, go to the SmartBank login page and click 'Forgot Password'. Enter your registered email or phone number, and you'll receive a password reset link within 2 minutes.",
+        "No worries! Click 'Forgot Password' on the login screen, verify your identity with OTP, and create a new secure password. Need help? Call us at 1-800-SMART-BANK."
+      ]
+    },
+    {
+      "tag": "transfer_money",
+      "patterns": [
+        "How do I transfer money",
+        "Send money to someone",
+        "Transfer funds",
+        "Make a transfer",
+        "How to send money",
+        "Transfer to another account",
+        "Wire transfer",
+        "Money transfer process"
+      ],
+      "responses": [
+        "To transfer money: 1) Log in to your SmartBank app, 2) Go to 'Transfer & Pay', 3) Select 'To Another Account', 4) Enter recipient details and amount, 5) Confirm with OTP. Transfers are instant!",
+        "You can transfer money through our mobile app, website, or by visiting any branch. For app transfers: Tap 'Send Money' > Enter recipient account > Confirm. Daily limit is $10,000 for instant transfers."
+      ]
+    },
+    {
+      "tag": "open_account",
+      "patterns": [
+        "How to open an account",
+        "Create new account",
+        "Open a bank account",
+        "New account",
+        "Account opening process",
+        "I want to open an account",
+        "Signup for account"
+      ],
+      "responses": [
+        "Opening a SmartBank account is easy! Visit our website, click 'Open Account', complete the online form with your details, upload ID proof, and you're done! Account activation takes 24 hours.",
+        "You can open an account in 3 ways: 1) Online via our website (10 mins), 2) Mobile app registration, or 3) Visit nearest branch with ID and address proof. Minimum deposit: $25."
+      ]
+    },
+    {
+      "tag": "loan_inquiry",
+      "patterns": [
+        "I need a loan",
+        "Apply for loan",
+        "Loan information",
+        "Personal loan",
+        "Home loan",
+        "How to get a loan",
+        "Loan rates",
+        "Loan eligibility"
+      ],
+      "responses": [
+        "SmartBank offers Personal Loans (up to $50,000), Home Loans, Auto Loans, and Education Loans. Interest rates start at 7.5% APR. Check your eligibility instantly on our website or call 1-800-SMART-LOAN.",
+        "To apply for a loan: Visit 'Loans' section in the app > Choose loan type > Enter amount & purpose > Submit documents > Get instant approval decision. Our team will contact you within 48 hours."
+      ]
+    },
+    {
+      "tag": "card_blocked",
+      "patterns": [
+        "My card is blocked",
+        "Unblock my card",
+        "Card not working",
+        "Debit card blocked",
+        "Credit card blocked",
+        "Why is my card blocked",
+        "Unlock card"
+      ],
+      "responses": [
+        "If your card is blocked, it might be due to security reasons or incorrect PIN attempts. Call our helpline at 1-800-SMART-CARD immediately to unblock it. You can also request unblock through the mobile app under 'Card Management'.",
+        "Cards are typically blocked for your safety after 3 wrong PIN attempts or suspicious activity. To unblock: Open app > Cards > Select your card > Tap 'Unblock' > Verify with OTP."
+      ]
+    },
+    {
+      "tag": "atm_location",
+      "patterns": [
+        "Where is the nearest ATM",
+        "ATM near me",
+        "Find ATM",
+        "ATM location",
+        "Closest ATM",
+        "ATM locator"
+      ],
+      "responses": [
+        "To find the nearest SmartBank ATM: Open our mobile app > Tap 'ATM Locator' > Allow location access. You'll see all nearby ATMs on the map with directions.",
+        "We have over 15,000 ATMs nationwide! Use our ATM Finder on the website or app to locate one near you. All SmartBank ATMs are available 24/7."
+      ]
+    },
+    {
+      "tag": "transaction_failed",
+      "patterns": [
+        "My transaction failed",
+        "Payment failed but money deducted",
+        "Transaction not completed",
+        "Failed transaction",
+        "Money debited but transfer failed",
+        "Transaction error"
+      ],
+      "responses": [
+        "If your transaction failed but money was deducted, don't worry! The amount will be automatically refunded to your account within 3-5 business days. If not refunded, contact support with transaction ID.",
+        "Failed transactions are usually reversed within 48 hours. Check 'Transaction History' for status. If the amount isn't credited back in 5 days, call 1-800-SMART-BANK with your transaction reference number."
+      ]
+    },
+    {
+      "tag": "customer_service",
+      "patterns": [
+        "Talk to customer service",
+        "Speak to agent",
+        "Human support",
+        "Customer care number",
+        "Contact support",
+        "Speak to representative",
+        "I need help from a person"
+      ],
+      "responses": [
+        "Our customer service team is available 24/7! Call 1-800-SMART-BANK or email support@smartbank.com. You can also chat with a live agent through our app (9 AM - 9 PM).",
+        "Need to speak with a human? Call us at 1-800-SMART-BANK (24/7) or use 'Live Chat' in the app during business hours (9 AM - 9 PM). Average wait time: 2 minutes."
+      ]
+    },
+    {
+      "tag": "interest_rates",
+      "patterns": [
+        "What are the interest rates",
+        "Savings account interest",
+        "Interest rate information",
+        "Current interest rates",
+        "How much interest do I earn",
+        "Interest on savings"
+      ],
+      "responses": [
+        "SmartBank offers competitive rates: Savings Account: 3.5% APR, Fixed Deposits: 5.5%-7% APR, Home Loans: 7.5% APR onwards. Rates updated monthly. Visit our website for detailed rate charts.",
+        "Interest rates vary by product. Current rates: Regular Savings: 3.5%, Premium Savings: 4.2%, FD (1 year): 6%. Earn more with our high-yield savings accounts! Check eligibility on our app."
+      ]
+    },
+    {
+      "tag": "mobile_banking",
+      "patterns": [
+        "How to use mobile banking",
+        "Mobile app features",
+        "Download banking app",
+        "Mobile banking setup",
+        "Activate mobile banking",
+        "Register for mobile banking"
+      ],
+      "responses": [
+        "SmartBank Mobile Banking lets you check balance, transfer money, pay bills, and more! Download the app from Google Play or App Store. Register using your account number and debit card details.",
+        "To activate mobile banking: 1) Download SmartBank app, 2) Click 'Register', 3) Enter account number and registered mobile, 4) Set MPIN, 5) Start banking! Features: Bill pay, transfers, card controls, and more."
+      ]
+    },
+    {
+      "tag": "security_concerns",
+      "patterns": [
+        "Is my account secure",
+        "How safe is online banking",
+        "Security features",
+        "Account security",
+        "Fraud protection",
+        "Is it safe to use mobile banking"
+      ],
+      "responses": [
+        "Your security is our priority! SmartBank uses 256-bit encryption, two-factor authentication, biometric login, and real-time fraud monitoring. Never share your PIN, password, or OTP with anyone.",
+        "We employ bank-grade security: SSL encryption, secure login (OTP + biometric), transaction alerts, and 24/7 fraud detection. Enable notifications in the app to monitor all account activities instantly."
+      ]
+    },
+    {
+      "tag": "bill_payment",
+      "patterns": [
+        "Pay bills",
+        "How to pay electricity bill",
+        "Bill payment",
+        "Pay my bills online",
+        "Utility bill payment",
+        "Recharge mobile"
+      ],
+      "responses": [
+        "Pay all your bills through SmartBank! Go to 'Bill Pay' in the app > Select biller (electricity, gas, mobile, etc.) > Enter details > Pay. Instant confirmation and zero charges!",
+        "We support 500+ billers including electricity, water, gas, mobile, DTH, and more. Set up auto-pay to never miss a due date. Cashback offers available on select bill payments!"
+      ]
+    },
+    {
+      "tag": "update_details",
+      "patterns": [
+        "Update my phone number",
+        "Change email address",
+        "Update personal information",
+        "Change address",
+        "Modify account details",
+        "Update contact information"
+      ],
+      "responses": [
+        "To update your details: Log in to SmartBank app > Profile > Edit Information > Update phone/email/address > Verify with OTP. Changes reflect immediately. For major updates, visit a branch with ID proof.",
+        "You can update contact details online through our app or website. For address changes, visit the nearest branch with address proof (utility bill/Aadhar). Email changes require email verification."
+      ]
+    },
+    {
+      "tag": "statement_request",
+      "patterns": [
+        "I need my bank statement",
+        "Download statement",
+        "Account statement",
+        "Get statement",
+        "Email my statement",
+        "Transaction history"
+      ],
+      "responses": [
+        "Download your bank statement instantly: Log in to app > Accounts > Select account > 'Download Statement' > Choose period (last 3/6/12 months) > PDF will be emailed to your registered email.",
+        "Bank statements are available in the app under 'Statements' section. You can download PDF or Excel format for any period. Statements are also sent automatically to your email every month."
+      ]
+    },
+    {
+      "tag": "minimum_balance",
+      "patterns": [
+        "What is minimum balance",
+        "Minimum balance requirement",
+        "How much should I maintain",
+        "MAB requirement",
+        "Minimum account balance"
+      ],
+      "responses": [
+        "Minimum balance requirements: Regular Savings: $100, Premium Savings: $500, Zero Balance Account: $0. Charges apply if balance falls below minimum (fees vary by account type).",
+        "SmartBank offers Zero Balance accounts with no minimum requirement! For Regular Savings, maintain $100 average monthly balance to avoid $5 monthly charge. Upgrade to Zero Balance anytime in the app."
+      ]
+    },
+    {
+      "tag": "cheque_book",
+      "patterns": [
+        "I need a cheque book",
+        "Request cheque book",
+        "Order cheque book",
+        "How to get cheque book",
+        "Cheque book request"
+      ],
+      "responses": [
+        "Order a cheque book in 3 steps: Open SmartBank app > 'Services' > 'Request Cheque Book' > Confirm delivery address. You'll receive it within 5-7 business days at your registered address.",
+        "Cheque books are free for premium accounts! Request through the app, website, or call customer service. Delivery time: 5-7 days. You can also collect immediately from your home branch."
+      ]
+    }
+  ]
+}
