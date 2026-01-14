@@ -290,7 +290,7 @@ Have questions or suggestions? Feel free to reach out!
 
 - **Open an Issue:** [GitHub Issues](https://github.com/yourusername/FUTURE_ML_03/issues)
 - **Email:** vedantkharsekar15@gmail.com
-- **LinkedIn:** [Your Profile](https://www.linkedin.com/in/vedant-kharsekar/)
+- **LinkedIn:** Vedant Kharsekar(https://www.linkedin.com/in/vedant-kharsekar/)
 
 ---
 
