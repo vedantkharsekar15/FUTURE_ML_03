@@ -13,8 +13,6 @@ An intelligent customer support chatbot built from scratch using **Natural Langu
 
 This chatbot simulates a **SmartBank Customer Support System** that can handle 20+ banking-related queries with human-like responses. Unlike basic rule-based bots, this system uses machine learning to understand user intent and provide contextually relevant answers.
 
-**Live Demo:** [Coming Soon - Deployed on Streamlit Cloud]
-
 ---
 
 ## ✨ Key Features
